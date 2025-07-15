@@ -1,0 +1,259 @@
+.woo-next-checkout-form {
+    margin-top: 40px;
+    background: #0d0e14;
+    padding: 10px 10px;
+}
+.checkout-form-title {
+    color: #ADFCFF;
+    font-size: 18px;
+}
+
+.checkout-form-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px auto;
+    margin-top: 10px;
+    grid-column-gap: 40px;
+    grid-row-gap: 10px;
+}
+
+.woo-next-checkout-form-contacts-wrapper {
+    border: 1px solid #ADFCFF;
+    border-radius: 7px;
+    margin: 30px 0px;
+    width: 55%;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.checkout-form-name {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px auto;
+    margin-top: 40px;
+    grid-column-gap: 40px;
+    grid-row-gap: 10px;
+}
+
+.label-input {
+    display: block;
+    color: #fff;
+}
+
+.checkout-input {
+    background: #171a26;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 100%;
+
+    color: #fff;
+    padding-left: 10px;
+}
+
+#country-shipping {
+    background: #171a26;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 100%;
+    color: #fff;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+#state-shipping {
+    background: #171a26;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 100%;
+    color: #fff;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.select-loading {
+    background: #171a26;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 100%;
+    color: #fff;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+}
+
+.select-wrapper {
+    position: relative;
+}
+
+.fill-current {
+    position: absolute;
+    top: 30%;
+    right: 10px;
+    fill: #fff;
+}
+
+.span-change svg {
+    transform: rotate(180deg);
+}
+
+.error {
+    color: red;
+}
+
+.billing-checkbox {
+    margin: 0px auto;
+    margin-top: 50px;
+    grid-column-gap: 40px;
+    grid-row-gap: 10px;
+}
+
+.label-checkbox-text {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.your-orders {
+    margin: 0px auto;
+    margin: 30px 0px;
+    grid-column-gap: 40px;
+    grid-row-gap: 10px;
+    flex-grow: 1;
+    color: #fff;
+    border: 1px solid #ADFCFF;
+    border-radius: 7px;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.h2 {
+    color: #ADFCFF;
+}
+
+.woo-next-checkout-form-contacts {
+    display: flex;
+    padding: 0px 20px;
+    gap: 150px;
+
+}
+
+.checkout-cart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.woo-next-cart-checkout img {
+    object-fit: contain;
+    height: auto !important;
+}
+
+.woo-next-checkout-payment-instructions {
+    margin-top: 10px;
+}
+
+.form-check-label {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.checkout-cart-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-wrapper {
+    margin-bottom: 15px;
+}
+
+.woo-next-cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-4 {
+    width: 33%;
+    width: auto;
+}
+
+.woo-next-cart-element {
+    width: 33%;
+    width: auto;
+}
+
+.checkout-cart-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.thank-you-wrapper {
+    max-width: 800px;
+    margin: 0px auto;
+    margin-top: 30px;
+
+    font-weight: 600;
+    font-size: 14px;
+    color: #ADFCFF;
+    text-align: center;
+}
+.thank-you-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.thank-you-table th,
+.thank-you-table td {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.thank-you-table th {
+    background-color: #0d0e14;
+    font-weight: 600;
+}
+
+.page-wrapper {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.woo-next-cart-element figure {
+   margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; 
+}
+
+.woo-next-cart-checkout {
+    object-fit: contain;
+    height: auto !important;
+}
+
+.download-text {
+    color: #ADFCFF;
+    text-align: center;
+}

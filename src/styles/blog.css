@@ -1,0 +1,147 @@
+.flex-wrap-blog {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    margin-top: 20px;
+    max-width: 1504px;
+}
+.post-item {
+  width: calc(25% - 20px); /* 4 в ряд - учитываем отступы */
+  margin: 10px;
+  box-sizing: border-box;
+}
+.post-item .product__image {
+    width: 100% !important;
+}
+.post-item .post-meta {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ADFCFF;
+}
+.post-item h2 {
+    font-weight: 600;
+    color: #ADFCFF;
+}
+.text-content {
+    font-weight: 600;
+font-size: 14px;
+color: #ADFCFF;
+}
+.post-meta-autor .italic {
+      margin-right: 5px;
+}
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin: 2rem 0; /* можно изменить отступ по желанию */
+}
+
+.pagination-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #ADFCFF;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.pagination-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #ADFCFF;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.tocki {
+  font-weight: 600;
+  font-size: 14px;
+  color: #ADFCFF;
+}
+
+.pagination-link:hover {
+  background-color: #727bac;
+  cursor: pointer;
+  border-color: #ADFCFF;
+}
+
+.pagination-button:hover {
+  background-color: #727bac;
+  cursor: pointer;
+  border-color: #ADFCFF;
+}
+
+.pagination-link-active {
+  background-color: #3465bd;
+  color: #ADFCFF;
+  border-color: #3465bd;
+  cursor: default;
+}
+
+.post-item-child img {
+    width: 100% !important;
+    object-fit: cover;
+}
+.comment-wrap {
+  margin-top: 30px;
+}
+.comment {
+    margin-bottom: 10px;
+}
+.comment-autor-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.comment-reply {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.comment-article {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    border: 1px solid #ADFCFF;
+    border-radius: 7px;
+    padding: 10px;
+}
+.comment-message a {
+    color: #ADFCFF;
+    text-decoration: underline;
+}
+.comment-reply-svg {
+  width: 24px;
+}
+/* 3 в ряд */
+@media (max-width: 1024px) {
+  .post-item {
+    width: calc(33.333% - 20px);
+  }
+}
+
+/* 2 в ряд */
+@media (max-width: 768px) {
+  .post-item {
+    width: calc(50% - 20px);
+  }
+}
+
+/* 1 в ряд */
+@media (max-width: 480px) {
+  .post-item {
+    width: calc(100% - 20px);
+  }
+}
